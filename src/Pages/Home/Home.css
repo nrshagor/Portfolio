@@ -1,0 +1,102 @@
+.flex{
+    display: flex;
+}
+.center{
+    align-items: center;
+}
+.justify{
+    justify-content: space-between;
+}
+.start{
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+    padding: 60px 0px;
+}
+.start .right img{
+    width: 550px;
+    max-height: 700px;
+    border: 1px transparent solid;
+    border-radius: 50%;
+    padding-left: 25px;
+    margin: 50px;
+}
+
+.start .left {
+ width: 100vw;
+ padding: 40px;
+ margin: 50px;
+ border: 1px solid rgba(255, 255, 255, 0.199);
+ background-color: rgba(5, 5, 5, 0.699);
+}
+.start .left h1{
+color: white;
+font-family: 'Roboto', sans-serif;
+justify-content: center;
+}
+.start .left strong{
+color: red;
+}
+.start .left p{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+}
+.btn-group{
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+}
+.btn{
+    padding: 0.6rem 2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    border: 1px solid transparent;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all .6s ease;
+}
+.btn-primary{
+    background: red;
+    border-radius: 50px;
+    color:white;
+}
+.btn-primary:hover{
+    background:transparent;
+    border-color: white;
+    color: white;
+}
+.btn-start{
+    background:transparent;
+    border-color: white;
+    color: white;
+}
+.btn-start:hover{
+    background: red;
+    color:white;
+    border-color: rgb(0, 0, 0);
+}
+.btn-cv{
+    background:transparent; 
+    border: 1px solid red;
+    border-radius: 0px;
+    color:rgb(252, 252, 252);
+
+}
+.btn-cv:hover{
+    background:red; 
+    color: whitesmoke;
+
+}
+@media screen and (max-width: 960px){
+    .start{
+        flex-direction: column;
+    }
+    .start .right img{
+        width: 100%;
+        border-radius: 50%;
+        padding: 2px;
+        margin: 0px;
+    }
+}

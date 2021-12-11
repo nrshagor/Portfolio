@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './Pages/Home/Home';
+import Navigation from './Pages/Shares/Navigation/Navigation';
+import ErrorPage from './Pages/Error/ErrorPage';
+import Footer from './Pages/Shares/Footer/Footer';
+import About from './Pages/About/About';
+import Projects from './Pages/Projects/Projects';
+import SingleProduct from './Pages/Projects/SingleProduct';
+import Contact from './Pages/Contacts/Contact';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Navigation></Navigation>
+        <Routes>
+          <Route exact path="/" element={<Home />} />
+          <Route path="/home" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/projects" element={<Projects />} />
+          <Route path="/project/:id" element={<SingleProduct />} />
+          <Route path="/contact" element={<Contact />} />
+
+
+          <Route path="*" element={<ErrorPage />} />
+        </Routes>
+        <Footer></Footer>
+      </BrowserRouter>
     </div>
   );
 }
