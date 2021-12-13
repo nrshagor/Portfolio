@@ -11,7 +11,7 @@
     display: flex;
     flex-direction: row;
     background-color: black;
-    padding: 60px 0px;
+    padding: 90px 0px;
 }
 .start .right img{
     width: 550px;
@@ -70,6 +70,7 @@ color: red;
 .btn-start{
     background:transparent;
     border-color: white;
+    border-radius: 0px;
     color: white;
 }
 .btn-start:hover{
@@ -98,5 +99,11 @@ color: red;
         border-radius: 50%;
         padding: 2px;
         margin: 0px;
+    }
+    .btn-group{
+        display: flex;
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
     }
 }

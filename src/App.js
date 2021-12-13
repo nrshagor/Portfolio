@@ -1,7 +1,6 @@
-import logo from './logo.svg';
+
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from './Pages/Home/Home';
 import Navigation from './Pages/Shares/Navigation/Navigation';

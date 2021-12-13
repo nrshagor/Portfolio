@@ -1,6 +1,7 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import me from '../../Images/me1.jpg'
-
+import mycv from '../Home/nrshagor.pdf';
 import './About.css'
 const About = () => {
     return (
@@ -17,8 +18,7 @@ const About = () => {
                         <p>Basically I am a programmer but I love to make Cartoon Animation, logo design, Video editing for
                             advertising, makeing Websites in programming language or wordpress. I have completed my engineering
                             graduation in computer science. I am always willing to find out new skills.</p>
-                        <a href="https://bd.linkedin.com/in/nrshagor" target="_blank"><button class="btn btn-cv">see
-                            more</button></a>
+                        <Link to={mycv} target="_blank"><button class="btn btn-cv" >View Resume</button></Link>
                     </div>
                 </div>
             </section>

@@ -7,6 +7,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contacts/Contact';
 import FAQ from '../FAQ/FAQ';
 import { Link } from 'react-router-dom';
+import mycv from './nrshagor.pdf';
 const Home = () => {
     // const handleType = (count: number) => {
     //     // access word count number
@@ -22,22 +23,26 @@ const Home = () => {
 
                     <p>"<strong>Hello World</strong>"</p>
                     <p>Myself N R SHAGOR</p>
-                    <p>   I'm  a  <Typewriter
-                        words={['Web Developer...', 'Freelancer...', 'Designer...']}
-                        loop={Infinity}
-                        cursor
-                        cursorStyle=''
-                        typeSpeed={80}
-                        deleteSpeed={60}
-                        delaySpeed={2000}
-                        onLoopDone={handleDone}
-                    // onType={handleType}
-                    />
+                    <p>   I'm  a {' '}
+                        <span style={{ color: 'red', fontWeight: 'bold' }}>
+                            {/* Style will be inherited from the parent element */}
+
+                            <Typewriter
+                                words={['Web Developer...', 'Freelancer...', 'Designer...']}
+                                loop={Infinity}
+                                cursor
+                                cursorStyle=''
+                                typeSpeed={80}
+                                deleteSpeed={60}
+                                delaySpeed={2000}
+                                onLoopDone={handleDone}
+                            // onType={handleType}
+                            />
+                        </span>
                     </p>
                     <br />
                     <div className='btn-group'>
-                        <Link to='#contact'><button class="btn btn-cv">Download </button></Link>
-                        <a href="#contact"><button class="btn btn-cv">Download CV</button></a>
+                        <Link to={mycv} target="_blank"><button class="btn btn-cv" >View Resume</button></Link>
                         <a href="#contact" smooth={true} duration={1000}><button class="btn btn-start">Hire Me</button></a>
                     </div>
                 </div>

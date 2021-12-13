@@ -1,10 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Card } from 'react-bootstrap';
 import { Link, useParams } from 'react-router-dom';
-
+import './SingleProduct.css'
 const SingleProduct = () => {
     const { id } = useParams()
-    console.log('bal', id);
     const [Services, setServices] = useState([]);
     const [details, setDetails] = useState([]);
     useEffect(() => {
@@ -26,8 +25,16 @@ const SingleProduct = () => {
                     <Card.Img className="img" variant="top" src={details?.img} />
                     <Card.Body>
                         <Card.Title>{details?.Product_Name}</Card.Title>
-                        <h2>Prices: {id} TK</h2>
-                        <p>{details?.Description}</p>
+                        <p>{details?.Product_description}</p>
+                        <p className='language'>
+                            <li><span className='html'>{details?.HTML}</span></li>
+                            <li><span>{details?.CSS}</span></li>
+                            <li><span>{details?.JavaScript}</span></li>
+                            <li><span>{details?.bootstrap}</span></li>
+                            <li><span>{details?.ReactJS}</span></li>
+                            <li><span>{details?.Nodejs}</span></li>
+
+                        </p>
 
                         <Link to="/projects"><button className="btn btn-warning">View All</button> </Link>
 

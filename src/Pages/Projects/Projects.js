@@ -25,8 +25,6 @@ const Projects = () => {
                         <Card.Img variant="top" src={product.img} />
                         <Card.Body>
                             <Card.Title>{product.Product_Name}</Card.Title>
-                            <h3>Product Price:{product.Product_Price}</h3>
-                            <h4>Product Duration: {product.Product_duration}</h4>
                             <Link to={`/project/${product.key}`}><button className="btn btn-warning">Read More</button></Link>
                         </Card.Body>
                     </Card>)

@@ -1,10 +1,58 @@
-import React from 'react';
+import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
+import './Footer.css'
 
 const Footer = () => {
+    const date = new Date().getFullYear()
     return (
         <div>
-            this is footer
-        </div>
+            <div className="footer">
+                <div className="container">
+                    <div className="sec aboutus">
+                        <h2>About myself</h2>
+                        <p> Hello dear. I am N R Shagor. A web developer</p>
+                        <ul className='sci'>
+                            <li><a href="#"><i className="fab fa-facebook"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="#"><i class="fab fa-github"></i></a></li>
+                            <li><a href="#"><i className="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                        </ul>
+                    </div>
+                    <div className="sec quicklinks">
+                        <h2>Quick Link</h2>
+                        <ul>
+                            <li><Link to='/home'>Home</Link></li>
+                            <li><Link to='/about'>About</Link></li>
+                            <li><Link to='/projects'>Projects</Link></li>
+                            <li><Link to='/faq'>FAQ</Link></li>
+
+                        </ul>
+                    </div>
+                    <div className="sec contact">
+                        <h2>Contact Info</h2>
+                        <ul className="info">
+                            <li>
+                                <span><i className="fas fa-map-signs"></i></span>
+                                <span>585/1 Modhubag Moghbazar</span>
+                            </li>
+                            <li>
+                                <span><i className="fas fa-phone-square-alt"></i></span>
+                                <p><a href="tel: +8801929567819">+8801929567819</a></p>
+                            </li>
+                            <li>
+                                <span><i className="fas fa-envelope-open-text"></i></span>
+                                <p><a href="mailto:noorerabbishagor.com">noorerabbishagor.com</a></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div className="copyright">
+
+                <p>Copyright &copy; 2021-{date}  N R SHAGOR All Rights Reserved</p>
+            </div>
+        </div >
     );
 };
 
