@@ -35,8 +35,12 @@ const SingleProduct = () => {
                             <li><span>{details?.Nodejs}</span></li>
 
                         </p>
+                        <div className='btn-group'>
+                            <Link to="/projects"><button className="btn btn-warning">View All</button> </Link>
+                            <a href={details?.link} target="_blank"><button className="btn btn-warinig">Demo</button> </a>
+                        </div>
 
-                        <Link to="/projects"><button className="btn btn-warning">View All</button> </Link>
+
 
                     </Card.Body>
                 </Card>

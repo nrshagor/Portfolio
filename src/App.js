@@ -10,6 +10,8 @@ import About from './Pages/About/About';
 import Projects from './Pages/Projects/Projects';
 import SingleProduct from './Pages/Projects/SingleProduct';
 import Contact from './Pages/Contacts/Contact';
+import Test from './Pages/test/Test';
+import Blog from './Pages/Blog/Blog';
 
 function App() {
   return (
@@ -23,7 +25,7 @@ function App() {
           <Route path="/projects" element={<Projects />} />
           <Route path="/project/:id" element={<SingleProduct />} />
           <Route path="/contact" element={<Contact />} />
-
+          <Route path="/blog" element={<Blog />} />
 
           <Route path="*" element={<ErrorPage />} />
         </Routes>

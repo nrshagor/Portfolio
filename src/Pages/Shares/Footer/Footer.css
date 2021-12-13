@@ -41,9 +41,12 @@
 }
 .sci{
     margin-top: 20px;
-    padding: 0px;
     display: flex;
 }
+.sci ul{
+    padding-left: 0px;
+}
+
 .sci li{
     list-style: none;
 }
