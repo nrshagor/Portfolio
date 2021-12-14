@@ -2,53 +2,164 @@
     {
         "key": "0001",
         "Product_Name": "Car World",
-        "Product_description": "This is a car website where people will find their necessary car.Customer can find sellers and contact them easily. Seller and customer will take their own dashboard.",
-        "HTML": "HTML5",
-        "CSS": "CSS3",
+        "Product_description": [
+            {
+                "Peragraph": "This is a car website where people will find their necessary car."
+            },
+            {
+                "Peragraph": "Customer can find sellers and contact them easily. "
+            },
+            {
+                "Peragraph": "Seller and customer will take their own dashboard. "
+            },
+            {
+                "Peragraph": "Admin can do other users make admin, add products, delete products. "
+            }
+        ],
         "link": "https://car-world-a1cb5.web.app/",
-        "JavaScript": "JavaScript",
-        "bootstrap": "bootstrap 5",
-        "ReactJS": "ReactJS",
-        "Node.js": "Node.js",
-        "img": "https://i.ibb.co/Wymjmvn/car.png"
+        "img": "https://i.ibb.co/Wymjmvn/car.png",
+        "technology": [
+            {
+                "name": "HTML5",
+                "bg": "linear-gradient(rgb(255, 0, 0), rgb(239 143 0))"
+            },
+            {
+                "name": "CSS3",
+                "bg": "linear-gradient(rgb(16 52 183 / 72%), rgb(0 217 239))"
+            },
+            {
+                "name": "JavaScript",
+                "bg": "linear-gradient(rgb(247 112 16), rgb(224 239 0))"
+            },
+            {
+                "name": "bootstrap 5",
+                "bg": "linear-gradient(rgb(3 211 163), rgb(50 26 243 / 65%))"
+            },
+            {
+                "name": "ReactJS",
+                "bg": "linear-gradient(rgb(42 124 8 / 93%), rgb(0 239 63))"
+            },
+            {
+                "name": "Node.js",
+                "bg": "linear-gradient(rgb(235 177 13), rgb(255 60 1))"
+            }
+        ]
     },
     {
         "key": "0002",
         "Product_Name": "DIAGNOSTIC SERVICES",
-        "Product_description": "Is a diagnostic test-related website where people easy to find their test cost. Users can see all services information when they registered on this website. Registration process help to find the user's location.The patient also gets the option for emergency help or home tests services.",
-        "HTML": "HTML",
-        "CSS": "CSS3",
+        "Product_description": [
+            {
+                "Peragraph": "Is a diagnostic test-related website where people easy to find their test cost."
+            },
+            {
+                "Peragraph": "Users can see all services information when they registered on this website. "
+            },
+            {
+                "Peragraph": "Registration process help to find the user's location.The patient also gets the option for emergency help or home tests services."
+            }
+        ],
         "link": "https://diagnostic-services.web.app/",
-        "JavaScript": "JavaScript",
-        "bootstrap": "bootstrap 5",
-        "ReactJS": "ReactJS",
-        "Node.js": "Node.js",
-        "img": "https://i.ibb.co/0CP9CxM/diagnostic.png"
+        "img": "https://i.ibb.co/0CP9CxM/diagnostic.png",
+        "technology": [
+            {
+                "name": "HTML5",
+                "bg": "linear-gradient(rgb(255, 0, 0), rgb(239 143 0))"
+            },
+            {
+                "name": "CSS3",
+                "bg": "linear-gradient(rgb(16 52 183 / 72%), rgb(0 217 239))"
+            },
+            {
+                "name": "JavaScript",
+                "bg": "linear-gradient(rgb(247 112 16), rgb(224 239 0))"
+            },
+            {
+                "name": "bootstrap 5",
+                "bg": "linear-gradient(rgb(3 211 163), rgb(50 26 243 / 65%))"
+            },
+            {
+                "name": "ReactJS",
+                "bg": "linear-gradient(rgb(42 124 8 / 93%), rgb(0 239 63))"
+            },
+            {
+                "name": "Node.js",
+                "bg": "linear-gradient(rgb(235 177 13), rgb(255 60 1))"
+            }
+        ]
     },
     {
         "key": "0003",
         "Product_Name": "TOUR PLANNER",
-        "Product_description": "This Tour planner website will help to find your package.It will help to find the User's budget packages.Users also can see detailed information in every service when they registered this website",
-        "HTML": "HTML",
-        "CSS": "CSS3",
+        "Product_description": [
+            {
+                "Peragraph": "This Tour planner website will help to find your package."
+            },
+            {
+                "Peragraph": "It will help to find the User's budget packages."
+            },
+            {
+                "Peragraph": "Users also can see detailed information in every service when they registered this website"
+            }
+        ],
         "link": "https://tour-planner-1cb16.web.app/",
-        "JavaScript": "JavaScript",
-        "bootstrap": "bootstrap 5",
-        "ReactJS": "ReactJS",
-        "Node.js": "Node.js",
-        "img": "https://i.ibb.co/hRc0wZH/tour.png"
+        "img": "https://i.ibb.co/hRc0wZH/tour.png",
+        "technology": [
+            {
+                "name": "HTML5",
+                "bg": "linear-gradient(rgb(255, 0, 0), rgb(239 143 0))"
+            },
+            {
+                "name": "CSS3",
+                "bg": "linear-gradient(rgb(16 52 183 / 72%), rgb(0 217 239))"
+            },
+            {
+                "name": "JavaScript",
+                "bg": "linear-gradient(rgb(247 112 16), rgb(224 239 0))"
+            },
+            {
+                "name": "bootstrap 5",
+                "bg": "linear-gradient(rgb(3 211 163), rgb(50 26 243 / 65%))"
+            },
+            {
+                "name": "ReactJS",
+                "bg": "linear-gradient(rgb(42 124 8 / 93%), rgb(0 239 63))"
+            },
+            {
+                "name": "Node.js",
+                "bg": "linear-gradient(rgb(235 177 13), rgb(255 60 1))"
+            }
+        ]
     },
     {
         "key": "0004",
         "Product_Name": "portfolio",
-        "Product_description": "Fully Responsive Website. Protfolio website show your personal information to others people",
-        "HTML": "HTML",
-        "CSS": "CSS3",
+        "Product_description": [
+            {
+                "Peragraph": "Availabe in dark mood"
+            },
+            {
+                "Peragraph": "Fully responsive"
+            },
+            {
+                "Peragraph": "Awsome Animation"
+            }
+        ],
         "link": "https://nrshagor.github.io/nrshagor/myself.html",
-        "JavaScript": "JavaScript",
-        "bootstrap": "",
-        "ReactJS": "",
-        "Nodejs": "",
-        "img": "https://i.ibb.co/zQqwrzC/protfolio.png"
+        "img": "https://i.ibb.co/zQqwrzC/protfolio.png",
+        "technology": [
+            {
+                "name": "HTML5",
+                "bg": "linear-gradient(rgb(255, 0, 0), rgb(239 143 0))"
+            },
+            {
+                "name": "CSS3",
+                "bg": "linear-gradient(rgb(16 52 183 / 72%), rgb(0 217 239))"
+            },
+            {
+                "name": "JavaScript",
+                "bg": "linear-gradient(rgb(247 112 16), rgb(224 239 0))"
+            }
+        ]
     }
 ]

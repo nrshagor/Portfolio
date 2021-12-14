@@ -5,6 +5,7 @@ const FAQ = () => {
     return (
         <div>
             <Container>
+                <h1>FAQ</h1>
                 <Accordion className='m-5 p-5'>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header>Where can I see your professional work?</Accordion.Header>

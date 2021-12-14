@@ -30,6 +30,7 @@
 .nav-links{
     color: white;
     text-decoration: none;
+    
     padding: 0.5rem 1rem;
     display: inline-block;
 }
@@ -40,6 +41,7 @@
 .nav-links::after{
     content: '';
     width: 0%;
+
     transition: 0.5s;
   }
 .nav-links:hover::after{

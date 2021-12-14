@@ -11,7 +11,7 @@ const Footer = () => {
                     <div className="sec aboutus">
                         <h2>About myself</h2>
                         <p> Hello dear. I am N R Shagor. A web developer</p>
-                        <ul className='sci'>
+                        <ul className='ps-0 sci'>
                             <li><a href="#"><i className="fab fa-facebook"></i></a></li>
                             <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
                             <li><a href="#"><i class="fab fa-github"></i></a></li>
@@ -21,7 +21,7 @@ const Footer = () => {
                     </div>
                     <div className="sec quicklinks">
                         <h2>Quick Link</h2>
-                        <ul>
+                        <ul className='ps-0'>
                             <li><Link to='/home'>Home</Link></li>
                             <li><Link to='/about'>About</Link></li>
                             <li><Link to='/projects'>Projects</Link></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                     </div>
                     <div className="sec contact">
                         <h2>Contact Info</h2>
-                        <ul className="info">
+                        <ul className="ps-0 info">
                             <li>
                                 <span><i className="fas fa-map-signs"></i></span>
                                 <span>585/1 Modhubag Moghbazar</span>

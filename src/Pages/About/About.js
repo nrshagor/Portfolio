@@ -16,8 +16,10 @@ const About = () => {
                     <div class="left center ">
                         <h1>I'm <span> N R SHAGOR</span></h1>
                         <p>Basically I am a programmer but I love to make Cartoon Animation, logo design, Video editing for
-                            advertising, makeing Websites in programming language or wordpress. I have completed my engineering
+                            advertising, makeing Websites in programming language or wordpress.</p>
+                        <p>I have completed my engineering
                             graduation in computer science. I am always willing to find out new skills.</p>
+                        <p>I known C Programming , HTML, CSS , Javascript, Reactjs, NodeJs</p>
                         <Link to={mycv} target="_blank"><button class="btn btn-cv" >View Resume</button></Link>
                     </div>
                 </div>

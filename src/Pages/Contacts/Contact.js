@@ -1,6 +1,5 @@
 import React, { useRef } from 'react';
 import emailjs from 'emailjs-com';
-import { Button, Form } from 'react-bootstrap';
 import './Contact.css'
 const Contact = () => {
     const form = useRef();
@@ -17,35 +16,60 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div id='contact' className='black'>
-            <h1>Contact From</h1>
-            <div className="container p-3 col-md-6  add-product-right">
-                <Form ref={form} onSubmit={sendEmail}>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-
-                        <Form.Control type="text" name="name" placeholder="Enter Name" />
-
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="formBasicEmail">
-
-                        <Form.Control type="email" name="email" placeholder="Enter email" />
-
-                    </Form.Group>
-                    <Form.Group className="mb-3" controlId="">
-                        <Form.Label>Write Something</Form.Label>
-                        <Form.Control as="textarea"
-                            placeholder="comment here"
-                            name="message"
-                            style={{ height: '100px' }} type="text" />
-                    </Form.Group>
-
-                    <Button variant="primary" type="submit" value="Add">
-                        Submite Review
-                    </Button>
-                </Form>
-
-            </div>
+        <div>
+            <section id='contact' className='contacts'>
+                <div className="content">
+                    <h2>Contact Me</h2>
+                </div>
+                <div className="contact-container">
+                    <div className="contactInfo">
+                        <div className="box">
+                            <div className="icon"><i className="fas fa-map-signs"></i></div>
+                            <div className="text">
+                                <h3>Address</h3>
+                                <p>585/1 Modhubag Moghbazar Dhaka</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <div className="icon"><i className="fas fa-phone-square-alt"></i></div>
+                            <div className="text">
+                                <h3>Phone</h3>
+                                <p>+880 1725-885591</p>
+                            </div>
+                        </div>
+                        <div className="box">
+                            <div className="icon"><i className="fas fa-envelope-open-text"></i></div>
+                            <div className="text">
+                                <h3>Email</h3>
+                                <p>noorerabbishagor@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="contactForm">
+                        <form ref={form} onSubmit={sendEmail}>
+                            <h2>Send Message</h2>
+                            <div className="inputBox">
+                                <input type="text" name="name" placeholder="" required />
+                                <span>Full Name</span>
+                            </div>
+                            <div className="inputBox">
+                                <input type="text" name="email" placeholder="" required />
+                                <span>Email</span>
+                            </div>
+                            <div className="inputBox">
+                                <textarea name="message" id="" cols="10" rows="3" required placeholder="">
+                                </textarea>
+                                <span>Type your message...</span>
+                            </div>
+                            <div className="inputBox">
+                                <input type="submit" name="" value="send" />
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
         </div>
+
     );
 };
 

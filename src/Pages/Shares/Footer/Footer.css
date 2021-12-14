@@ -44,7 +44,10 @@
     display: flex;
 }
 .sci ul{
-    padding-left: 0px;
+    /* padding-left: -30px; */
+    /* padding-left: 0 !important; */
+
+    padding-left: 100px;
 }
 
 .sci li{

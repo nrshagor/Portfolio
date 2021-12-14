@@ -43,9 +43,9 @@ justify-content: center;
 }
 .about .left p{
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     font-family: 'Poppins', sans-serif;
-    justify-content: center;
+    text-align: start;
 }
 @media screen and (max-width: 960px){
     #about{
