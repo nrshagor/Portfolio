@@ -17,8 +17,8 @@ const FAQ = () => {
                         <Accordion.Header>How long will the work take from start to finish?</Accordion.Header>
                         <Accordion.Body>
                             <p>It will depend on the scope of the project.</p>
-                            <p>A single landing page may take 1-3 weeks, depending on the amount of copy.</p>
-                            <p>A full website with 5-10 pages may take 6-8 weeks.</p>
+                            <p>A single landing page may take 1 weeks, depending on the amount of copy.</p>
+                            <p>A full website with 5-10 pages may take 2-3 weeks.</p>
                         </Accordion.Body>
                     </Accordion.Item>
                 </Accordion>

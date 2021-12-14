@@ -14,7 +14,7 @@ const Projects = () => {
         <div >
             <section id="projects">
                 <div className="projects-container">
-                    <h2 className="section-heading " data-outline="Projects">Projects</h2>
+                    <h2 className="section-heading " data-outline="Projects">My Projects</h2>
                     <div className="all-items">
                         {Products.map(product => <div className="projects-item">
                             <div className="projects-left">
