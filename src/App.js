@@ -12,6 +12,8 @@ import SingleProduct from './Pages/Projects/SingleProduct';
 import Contact from './Pages/Contacts/Contact';
 
 import Blog from './Pages/Blog/Blog';
+import BlogCss from './Pages/Blog/BlogCss';
+import BlogReact from './Pages/Blog/BlogReact';
 
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
           <Route path="/project/:id" element={<SingleProduct />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/css" element={<BlogCss />} />
+          <Route path="/react" element={<BlogReact />} />
 
           <Route path="*" element={<ErrorPage />} />
 
